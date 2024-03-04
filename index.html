@@ -10,6 +10,11 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
     @font-face {
       font-family: "Outfit";
       src: url("https://fonts.google.com/specimen/Outfit");
@@ -35,17 +40,18 @@ body {
 article {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: var(--white);
+  margin-top: 20px;
   padding: 13px 10px;
   border-radius: 5%;
   width: 310px;
-  height: 460px;;
+  height: 410px;;
 }
 .qr-img {
-  width:300px;
-  margin-top:-15px;
+  width:280px;
+  margin-top:-5px;
   border-radius: 5%;
 }
 h1 {
