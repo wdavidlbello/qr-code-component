@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: "Outfit";
+      src: url("https://fonts.google.com/specimen/Outfit");
+    }
+    :root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    }   
+body {
+  
+  font-family: Outfit, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-gray);
+  
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  padding: 13px 10px;
+  border-radius: 5%;
+  width: 310px;
+  height: 460px;;
+}
+.qr-img {
+  width:300px;
+  margin-top:-15px;
+  border-radius: 5%;
+}
+h1 {
+
+  text-align: center;
+  font-weight: 700;
+  font-size: large;
+}
+p {
+  color: var(--grayish-blue);
+  margin-top: -5px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+}
+p, h1 {
+  width: 270px;
+}
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+  </style>
+</head>
+<body>
+  <section>
+    <article>
+      <img src="/images/image-qr-code.png" alt="QR image-qr-code" class="qr-img">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </article>
+</section>  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="mailto:wdavidlbello@gmail.com">wdavidlbello</a>.
+  </div>
+</body>
+</html>
