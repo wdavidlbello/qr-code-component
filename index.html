@@ -25,49 +25,59 @@
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
 
-    }   
+    }  
+body {
+  background-color: var(--light-gray);
+} 
 section {
+  
   font-family: Outfit, sans-serif;
   background-color: var(--light-gray);
-  height: 90dvh;
-  width:80dvw;
-  margin: 40dvh auto;
+  height: 100dvh;
+  width: 100vw;
+  margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+  
+  
 }
 
 article {
-  
+
   background-color: var(--white);
-  padding: 10px 10px;
+  padding: 13px 10px;
   border-radius: 5%;
-  width: 210px;
-  height: 330px;
+  width: 280px;
+  height: 440px;
   display:flex;
   flex-direction:column;
   align-items: center;
 }
 .qr-img {
-  width: 190px;
-  margin-bottom: 15px;
+  width:250px;
   border-radius: 5%;
+  margin-bottom: 25px;
 }
 h1 {
 
-  text-align:center;
+  text-align: center;
   font-weight: 700;
-  font-size: 12px;
+  font-size: large;
 }
 p {
   color: var(--grayish-blue);
-  text-align:center;
+  margin-top: -5px;
+  text-align: center;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 14px;
 }
 p, h1 {
-  width: 185px;
-  margin-bottom: 15px;
+  width: 240px;
+  margin-bottom: 25px;
+
 }
 
     .attribution { font-size: 11px; text-align: center; }
@@ -83,5 +93,6 @@ p, h1 {
       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </article>
 </section>  
+  
 </body>
 </html>
